@@ -17,7 +17,7 @@ moment.updateLocale('zh-cn', {
     meridiem :
 function nineHour (hour) {
     var nineAmEl = $('#hour-9');
-    if (hour == 9) {
+    if (hour == 23) {
         return nineAmEl.addClass('present');
     } else if (hour <= 17) {
         return nineAmEl.addClass('past');
